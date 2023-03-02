@@ -4,9 +4,10 @@ source "https://rubygems.org"
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
 #     bundle exec jekyll serve
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll", "~> 4.0.1"
-gem "webrick"
+gem "github-pages"
+# , group: :jekyll_plugins
+# gem "jekyll"
+# gem "webrick"
 # Plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
