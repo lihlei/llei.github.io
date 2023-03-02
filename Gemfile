@@ -4,13 +4,14 @@ source "https://rubygems.org"
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
 #     bundle exec jekyll serve
+
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll"
 gem "webrick"
 # Plugins
-# group :jekyll_plugins do
-#   gem "jekyll-feed", "~> 0.12"
-# end
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.12"
+end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
