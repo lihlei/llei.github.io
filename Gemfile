@@ -6,7 +6,7 @@ source "https://rubygems.org"
 #     bundle exec jekyll serve
 
 gem "github-pages", group: :jekyll_plugins
-gem "jekyll"
+gem "jekyll","~->4.0.0"
 gem "webrick"
 # Plugins
 group :jekyll_plugins do
